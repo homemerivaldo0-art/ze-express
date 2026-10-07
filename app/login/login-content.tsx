@@ -45,7 +45,7 @@ export function LoginContent() {
           <div className="w-16 h-16 bg-amber-400 rounded-full flex items-center justify-center mx-auto mb-4">
             <Beer className="w-8 h-8 text-gray-900" />
           </div>
-          <h1 className="text-2xl font-bold text-white">Zé Express</h1>
+          <h1 className="text-2xl font-bold text-white">EXPRESS BEBIDAS</h1>
           <p className="text-gray-400 mt-2">Painel Administrativo</p>
         </div>
 
