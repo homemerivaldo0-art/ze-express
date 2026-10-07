@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth';
+import { getServerSession } from '@/lib/get-session';
 import { authOptions } from '@/lib/auth-options';
 import { prisma } from '@/lib/db';
 
@@ -21,7 +21,7 @@ export async function GET() {
     }
 
     return NextResponse.json({
-      storeName: settingsObj.storeName || 'Zé Express',
+      storeName: settingsObj.storeName || 'EXPRESS BEBIDAS',
       deliveryFee: parseFloat(settingsObj.deliveryFee || '8.7'),
       freeDeliveryThreshold: parseFloat(settingsObj.freeDeliveryThreshold || '29.9'),
       estimatedDeliveryTime: parseInt(settingsObj.estimatedDeliveryTime || '19'),
@@ -29,7 +29,7 @@ export async function GET() {
       whatsappNumber: settingsObj.whatsappNumber || '',
       pixKey: settingsObj.pixKey || '',
       pixKeyType: settingsObj.pixKeyType || 'cpf',
-      pixReceiverName: settingsObj.pixReceiverName || 'Zé Express'
+      pixReceiverName: settingsObj.pixReceiverName || 'EXPRESS BEBIDAS'
     });
   } catch (error) {
     console.error('Error fetching settings:', error);
