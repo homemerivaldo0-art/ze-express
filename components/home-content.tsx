@@ -40,7 +40,7 @@ export function HomeHeroBanner() {
     <>
       <GeolocationModal />
       <section className="relative w-full aspect-video md:aspect-auto md:h-[380px] overflow-hidden">
-        <Image src="/hero-banner.jpg" alt="Zé Delivery - Bebida Gelada em até 15 Minutos" fill className="object-cover object-top" priority />
+        <Image src="/banner-bebidas.png" alt="EXPRESS BEBIDAS - Cerveja Gelada Aonde Vc Estiver" fill className="object-cover object-center" priority />
       </section>
     </>
   );
