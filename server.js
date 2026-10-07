@@ -22,7 +22,7 @@ app
       const parsedUrl = parse(req.url, true);
       handle(req, res, parsedUrl);
     }).listen(port, () => {
-      console.log(`> Zé Express pronto em http://${hostname}:${port}`);
+      console.log(`> EXPRESS BEBIDAS pronto em http://${hostname}:${port}`);
     });
   })
   .catch((err) => {
