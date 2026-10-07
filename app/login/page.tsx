@@ -44,7 +44,7 @@ export default function LoginPage() {
           <div className="w-20 h-20 mx-auto mb-4 bg-orange-500 rounded-full flex items-center justify-center">
             <Beer className="w-10 h-10 text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-gray-900">Zé Express</h1>
+          <h1 className="text-2xl font-bold text-gray-900">EXPRESS BEBIDAS</h1>
           <p className="text-gray-600 mt-2">Painel Administrativo</p>
         </div>
 
